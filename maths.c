@@ -242,6 +242,12 @@ int inverse()
             printf("\n====================");
  
             
+            printf("\n\nThe inverse matrix is");
+            printf("\n====================");
+            printf("\n %d   %d   %d",b[0][0],b[1][0],b[2][0]);
+            printf("\n %d   %d   %d    *  %f ",b[0][1],b[1][1],b[2][1],val2);
+            printf("\n %d   %d   %d",b[0][2],b[1][2],b[2][2]);
+            printf("\n====================");
         }
     }
     return 0;

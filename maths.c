@@ -252,3 +252,53 @@ int inverse()
     }
     return 0;
 }
+
+int main()
+{
+    int choice;
+    while(1)
+    {
+        printf("\n=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=");
+        printf("\n=                                                         =");
+        printf("\n=(1)Find the root of quadratic equation.                  =");
+        printf("\n=                                                         =");
+        printf("\n=(2)Find the equation and  eigen values of 2*2 matrix.    =");
+        printf("\n=                                                         =");
+        printf("\n=(3)Find the log of base 10.                              =");
+        printf("\n=                                                         =");
+        printf("\n=(4)Find the inverse of 3*3 matrix.                       =");
+        printf("\n=                                                         =");
+        printf("\n=(5)Find the angle of any trigonometric function.         =");
+        printf("\n=                                                         =");
+        printf("\n=(6)Exit                                                  =");
+        printf("\n=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=");
+
+        printf("\n\nEnter your choice");
+        scanf("%d",&choice);
+        switch(choice)
+        {
+        case 1:
+            qudratic();
+            break;
+        case 2:
+            eigen();
+            break;
+        case 3:
+            logs();
+            break;
+        case 4:
+            inverse();
+            break;
+        case 5:
+            angle();
+            break;
+        case 6:
+            exit(0);
+            break;
+        default:
+            printf("Please enter valid choice");
+            break;
+        }
+    }
+}
+

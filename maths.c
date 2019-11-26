@@ -69,6 +69,12 @@ int eigen()
         l=sqrt(m)/(2*a);
         printf("\n The eigen values is %f + or - %f*i\n",k,l);
     }
+    if(delta==0)
+    {
+        printf("\nThe eigen values and equal\n");
+        i=(-b)/(2*a);
+        printf("\nThe eigen values is %f",i);
+    }
     if(delta>0)
     {
         printf("\nThe eigen values real and different\n");

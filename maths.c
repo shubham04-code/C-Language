@@ -301,4 +301,194 @@ int main()
         }
     }
 }
+/*
+ *OUTPUT :
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+=                                                         =
+=(1)Find the root of quadratic equation.                  =
+=                                                         =
+=(2)Find the equation and  eigen values of 2*2 matrix.    =
+=                                                         =
+=(3)Find the log of base 10.                              =
+=                                                         =
+=(4)Find the inverse of 3*3 matrix.                       =
+=                                                         =
+=(5)Find the angle of any trigonometric function.         =
+=                                                         =
+=(6)Exit                                                  =
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+Enter your choice1
+
+Enter the co-efficient of the x^2,x and constant
+6
+11
+-35
+
+The quadratic equestion is 6.000000 * x^2  11.000000 * x  -35.000000
+
+The root are real and different
+
+The root is 1.666667 and -3.500000
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+=                                                         =
+=(1)Find the root of quadratic equation.                  =
+=                                                         =
+=(2)Find the equation and  eigen values of 2*2 matrix.    =
+=                                                         =
+=(3)Find the log of base 10.                              =
+=                                                         =
+=(4)Find the inverse of 3*3 matrix.                       =
+=                                                         =
+=(5)Find the angle of any trigonometric function.         =
+=                                                         =
+=(6)Exit                                                  =
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+Enter your choice2
+Enter the first row of 2*2 matrix
+1
+2
+Enter the second row of 2*2 matrix
+4
+3
+The matrix is:
+================
+ 1  2
+ 4  3
+================
+The equation is 1.000000 * x^2  -4.000000 * x  -5.000000
+
+The eigen values real and different
+
+The eigen values is 5.000000 and -1.000000
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+=                                                         =
+=(1)Find the root of quadratic equation.                  =
+=                                                         =
+=(2)Find the equation and  eigen values of 2*2 matrix.    =
+=                                                         =
+=(3)Find the log of base 10.                              =
+=                                                         =
+=(4)Find the inverse of 3*3 matrix.                       =
+=                                                         =
+=(5)Find the angle of any trigonometric function.         =
+=                                                         =
+=(6)Exit                                                  =
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+Enter your choice3
+
+Enter the value which you want to find log of base 10
+2
+Ans is 0.301144
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+=                                                         =
+=(1)Find the root of quadratic equation.                  =
+=                                                         =
+=(2)Find the equation and  eigen values of 2*2 matrix.    =
+=                                                         =
+=(3)Find the log of base 10.                              =
+=                                                         =
+=(4)Find the inverse of 3*3 matrix.                       =
+=                                                         =
+=(5)Find the angle of any trigonometric function.         =
+=                                                         =
+=(6)Exit                                                  =
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+Enter your choice4
+Enter 3*3 matrix
+3
+-3
+4
+2
++3
+4
+0
+-1
+1
+
+The matrix is
+====================
+ 3   2   0
+ -3   3   -1
+ 4   4   1
+====================
+The matrix value is = 19.000000
+
+Adj matrix is
+====================
+ 7   -2   -2
+ -1   3   3
+ -24   -4   15
+====================
+
+The inverse matrix is
+====================
+ 7   -2   -2
+ -1   3   3    *  0.052632
+ -24   -4   15
+====================
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+=                                                         =
+=(1)Find the root of quadratic equation.                  =
+=                                                         =
+=(2)Find the equation and  eigen values of 2*2 matrix.    =
+=                                                         =
+=(3)Find the log of base 10.                              =
+=                                                         =
+=(4)Find the inverse of 3*3 matrix.                       =
+=                                                         =
+=(5)Find the angle of any trigonometric function.         =
+=                                                         =
+=(6)Exit                                                  =
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+Enter your choice5
+
+(1)sine
+(2)cos
+(3)tan
+(4)cot
+(5)cosec
+(6)sec
+(7)Exit.
+1
+Enter a angle in degree 30
+The value is 0.499770
+(1)sine
+(2)cos
+(3)tan
+(4)cot
+(5)cosec
+(6)sec
+(7)Exit.
+2
+Enter a angle in degree 59
+The value is 0.514803
+(1)sine
+(2)cos
+(3)tan
+(4)cot
+(5)cosec
+(6)sec
+(7)Exit.
+3
+Enter a angle in degree 65
+The value is 2.144949
+(1)sine
+(2)cos
+(3)tan
+(4)cot
+(5)cosec
+(6)sec
+(7)Exit.
+7
+Exit.
+*/
+
 

@@ -128,7 +128,7 @@ int angle()
     float sine(float x)
     {
         float val;
-        val=(x+(x*x*x*x*x)/120+(x*x*x*x*x*x*x*x*x)/362880)-((x*x*x)/6);
+        val=(x+(x*x*x*x*x)/120+(x*x*x*x*x*x*x*x*x)/362880)-((x*x*x)/6+(x*x*x*x*x*x*x)/5040);
         return val;
     }
     int ch,ang;

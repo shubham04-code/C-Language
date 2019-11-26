@@ -40,3 +40,41 @@ int qudratic()
     }
     return 0;
 }
+
+int eigen()
+{
+    float a,b,c,delta,i,j,m,k,l;
+    int x[2][2],n[2][2];
+    printf("Enter the first row of 2*2 matrix\n");
+    scanf("%d",&x[0][0]);
+    scanf("%d",&x[0][1]);
+    printf("Enter the second row of 2*2 matrix\n");
+    scanf("%d",&x[1][0]);
+    scanf("%d",&x[1][1]);
+    printf("The matrix is:");
+    printf("\n================");
+    printf("\n %d  %d ",x[0][0],x[0][1]);
+    printf("\n %d  %d ",x[1][0],x[1][1]);
+    printf("\n================");
+    a=1;
+    b=-(x[0][0]+x[1][1]);
+    c=(x[0][0]*x[1][1])-(x[0][1]*x[1][0]);
+    printf("\nThe equation is %f * x^2  %f * x  %f\n",a,b,c);
+    delta=b*b-4*a*c;
+    if(delta<0)
+    {
+        printf("\nThe eigen values are imaginary\n");
+        m=-delta;
+        k=(-b)/(2*a);
+        l=sqrt(m)/(2*a);
+        printf("\n The eigen values is %f + or - %f*i\n",k,l);
+    }
+    if(delta>0)
+    {
+        printf("\nThe eigen values real and different\n");
+        i=(-b+sqrt(delta))/(2*a);
+        j=(-b-sqrt(delta))/(2*a);
+        printf("\nThe eigen values is %f and %f\n",i,j);
+    }
+    return 0;
+}

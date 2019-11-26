@@ -84,3 +84,26 @@ int eigen()
     }
     return 0;
 }
+
+
+int logs()
+{
+    int i;
+    float number;
+    printf("\nEnter the value which you want to find log of base 10");
+    scanf("%f",&number);
+    if(number==0)
+        printf("- infi..");
+    else if(number<0)
+        printf("Error");
+    else
+    {
+        for(i=0; i<=13; i++)
+        {
+            number=sqrt(number);
+        }
+        number=(number-1)*3558;
+        printf("Ans is %f",number);
+    }
+    return 0;
+}

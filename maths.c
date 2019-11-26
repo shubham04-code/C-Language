@@ -107,3 +107,90 @@ int logs()
     }
     return 0;
 }
+
+//Here the special think is that finding trigonometric function values,without using inbuilt function.
+int angle()
+{
+    float radian(int x)
+    {
+        int y;
+        y=x/180;
+        if(y%2==0)
+        {
+            x=x-y*180;
+        }
+        else
+        {
+            x=y*180-x;
+        }
+        return(3.14*x/180);
+    }
+    float sine(float x)
+    {
+        float val;
+        val=(x+(x*x*x*x*x)/120+(x*x*x*x*x*x*x*x*x)/362880)-((x*x*x)/6);
+        return val;
+    }
+    int ch,ang;
+    float v1,v2,p1,p2;
+    while(1)
+    {
+        printf("\n(1)sine \n(2)cos \n(3)tan \n(4)cot \n(5)cosec \n(6)sec \n(7)Exit.\n");
+        scanf("%d",&ch);
+        switch(ch)
+        {
+        case 1:
+            printf("Enter a angle in degree");
+            scanf("%d",&ang);
+            v1=radian(ang);
+            v2=sine(v1);
+            printf("The value is %f",v2);
+            break;
+        case 2:
+            printf("Enter a angle in degree");
+            scanf("%d",&ang);
+            v1=radian(90-ang);
+            v2=sine(v1);
+            printf("The value is %f",v2);
+            break;
+        case 3:
+            printf("Enter a angle in degree");
+            scanf("%d",&ang);
+            v1=radian(90-ang);
+            v2=sine(v1);
+            p1=radian(ang);
+            p2=sine(p1);
+            printf("The value is %f",p2/v2);
+            break;
+        case 4:
+            printf("Enter a angle in degree");
+            scanf("%d",&ang);
+            v1=radian(90-ang);
+            v2=sine(v1);
+            p1=radian(ang);
+            p2=sine(p1);
+            printf("The value is %f",v2/p2);
+            break;
+        case 5:
+            printf("Enter a angle in degree");
+            scanf("%d",&ang);
+            p1=radian(ang);
+            p2=sine(p1);
+            printf("The value is %f",1/p2);
+            break;
+        case 6:
+            printf("enter a angle in degree");
+            scanf("%d",&ang);
+            v1=radian(90-ang);
+            v2=sine(v1);
+            printf("The value is %f",1/v2);
+            break;
+        case 7:
+            exit(0);
+            break;
+        default:
+            printf("Please enter valid choice");
+        }
+    }
+    return 0;
+}

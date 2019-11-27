@@ -1,6 +1,6 @@
-/*This program is check,the magic matrix is possible or not for which use enter a number
+/*This program is check,the magic matrix is possible or not for which user enter a number
 ->what is magic matrix?
-->The sum of all diagonal and rows and columns are same.*/
+->The sum of all diagonal or rows or columns are same.*/
 #include<stdio.h>
 void sort();
 void showmatrix();

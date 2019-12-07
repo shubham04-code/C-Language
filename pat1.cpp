@@ -31,3 +31,15 @@ int main()
     }
     return 0;
 }
+/*
+OUTPUT:
+
+a 
+10 
+c b 
+8 6 
+f e d 
+4 2 0 
+j i h g
+
+*/
